@@ -2,13 +2,13 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 using IdentityModel.Client;
-using Microsoft.AspNet.Authentication;
-using Microsoft.AspNet.Builder;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.WebEncoders;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
 
 namespace IdentityModel.AspNet.OAuth2Introspection
 {

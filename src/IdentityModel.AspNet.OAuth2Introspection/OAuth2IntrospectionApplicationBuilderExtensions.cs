@@ -3,6 +3,7 @@
 
 using IdentityModel.AspNet.OAuth2Introspection;
 using System;
+using Microsoft.AspNetCore.Builder;
 
 namespace Microsoft.AspNet.Builder
 {

@@ -1,9 +1,9 @@
 ﻿// Copyright (c) Dominick Baier & Brock Allen. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
-using Microsoft.AspNet.Http;
 using System;
 using System.Linq;
+using Microsoft.AspNetCore.Http;
 
 namespace IdentityModel.AspNet.OAuth2Introspection
 {
